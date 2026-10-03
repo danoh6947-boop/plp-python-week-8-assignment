@@ -1,0 +1,54 @@
+=====================================================
+PROJECT PLAN: Python Multi-Tool Utility (Week 8)
+=====================================================
+
+1. TOOL DESCRIPTIONS
+---------------------
+Tool 1: Number Guessing Game
+- Description: Generates a secret random number between 1 and 10 and allows the user up to 3 attempts to guess it correctly with feedback.
+
+Tool 2: Quick Task / Shopping List
+- Description: Allows users to dynamically add tasks or shopping items to a list until they type 'done', then displays all items neatly numbered.
+
+Tool 3: Simple Calculator
+- Description: Performs basic arithmetic operations (addition, subtraction, multiplication, and division) between two numbers while handling division by zero.
+
+
+2. CONCEPTS CHECKLIST
+----------------------
+- Tool 1 (Number Guessing Game):
+  * Loop: while loop (to handle 3 attempts)
+  * Conditionals: if / elif / else (to check guess vs secret number)
+  * Module: random (random.randint)
+  * Formatting: f-strings for attempt counts and results
+
+- Tool 2 (Quick Task List):
+  * Dynamic List: list initialization and .append() to add items
+  * Loops: while loop for input gathering, for loop with enumerate() for output
+  * Formatting: f-strings for item confirmation and summary
+
+- Tool 3 (Simple Calculator):
+  * Conditionals: if / elif / else to match operators (+, -, *, /)
+  * Error Handling: Check to prevent division by zero
+  * Formatting: f-strings to display the full equation and result
+
+- Main Program:
+  * Infinite while loop to keep returning to the main menu
+  * if / elif / else for menu navigation
+  * Input validation fallback (else block) for invalid menu options
+
+
+3. EXACT MENU TEXT
+=====================================================
+===================================
+   Welcome to the Power Toolkit!   
+===================================
+
+Please choose a tool:
+1. Number Guessing Game
+2. Task / Shopping List
+3. Simple Calculator
+4. Quit
+
+Enter your choice (1-4): 
+=====================================================
